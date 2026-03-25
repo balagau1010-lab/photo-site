@@ -1,17 +1,61 @@
-h1 {
-    font-size: 40px;
-    margin-top: 20px;
+body {
+    margin: 0;
+    font-family: Arial;
 }
 
-h2 {
-    margin-top: 40px;
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: white;
+    align-items: center;
 }
 
-a {
-    display: inline-block;
-    padding: 10px 20px;
-    background: gold;
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
     color: black;
+}
+
+.btn {
+    background: hotpink;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-img img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.hero-content {
+    margin-left: 50px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+}
+
+.btn2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid hotpink;
+    color: hotpink;
     text-decoration: none;
     border-radius: 5px;
 }
